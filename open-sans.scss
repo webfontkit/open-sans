@@ -8,6 +8,7 @@
         font-family: 'open sans';
         src:url('#{$path-fonts}/#{$file-name}.eot');
         src:url('#{$path-fonts}/#{$file-name}.eot?#iefix') format('embedded-opentype'),
+            url('#{$path-fonts}/#{$file-name}.woff2') format('woff2'),
             url('#{$path-fonts}/#{$file-name}.woff') format('woff'),
             url('#{$path-fonts}/#{$file-name}.ttf') format('truetype'),
             url('#{$path-fonts}/#{$file-name}.svg#open+sans') format('svg');
